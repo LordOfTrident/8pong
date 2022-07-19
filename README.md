@@ -18,12 +18,23 @@
 
 ## Table of contents
 * [Introduction](#introduction)
+* [Controls](#controls)
 * [Bugs](#bugs)
 * [Dependencies](#dependencies)
 * [Make](#make)
 
 ## Introduction
 Small and simple [pong](https://en.wikipedia.org/wiki/Pong) game made in C using SDL2.
+
+## Controls
+| Key        | Action             |
+| ---------- | ------------------ |
+| Q          | Quit               |
+| Space      | Pause              |
+| W          | Player 1 move up   |
+| S          | Player 1 move down |
+| Up arrow   | Player 2 move up   |
+| Down arrow | Player 2 move down |
 
 ## Bugs
 If you find any bugs, please create an issue and report them.
