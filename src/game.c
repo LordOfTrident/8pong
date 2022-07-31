@@ -259,6 +259,9 @@ void game_handle_events(game_t *p_game) {
 	SDL_Rect proj_rect, paddle_rect;
 	game_get_proj_rect(p_game, &proj_rect);
 
+	if (p_game->paused)
+		return;
+
 	float prev_y = p_game->paddle1_y;
 	if (p_game->key_states[SDL_SCANCODE_W]) {
 		p_game->paddle1_y -= PADDLE_SPEED;
