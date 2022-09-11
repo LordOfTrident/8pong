@@ -83,7 +83,7 @@ void game_run(game_t *p_game) {
 		fps_timer   = now;
 
 		char title[32] = {0};
-		snprintf(title, 32, GAME_TITLE" FPS: %li", p_game->fps);
+		snprintf(title, sizeof(title), GAME_TITLE" FPS: %zu", p_game->fps);
 
 		SDL_SetWindowTitle(p_game->window, title);
 

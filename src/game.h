@@ -6,6 +6,7 @@
 #include <time.h>    /* time */
 #include <string.h>  /* memset */
 #include <math.h>    /* cos, sin */
+#include <stdio.h>   /* snprintf */
 #include <SDL2/SDL.h>
 
 #ifndef M_PI
